@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.quote-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.quote-container .quote-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 4px #333;
+  line-height: 1.3;
+}
+
+.quote-container .quote-title {
+  font-size: 2.5rem;
+}
+
+.quote-container .quote-text {
+  font-size: 1.75rem;
+}
+
+.quote-container .quote-author {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .quote-container .quote-title {
+    font-size: 4rem;
+  }
+
+  .quote-container .quote-text {
+    font-size: 3rem;
+  }
+
+  .quote-container .quote-author {
+    font-size: 1.5rem;
+  }
+}
